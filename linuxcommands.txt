@@ -1,0 +1,76 @@
+pwd-- present working directory
+ls-- listout
+cd-- change directory
+cat--to visible the files
+touch-- to create empty file
+cp-- to copy file from one file to another
+mv-- to move file
+mkdir--to create directory
+rmdir-- to remove directory
+rm-- remove files
+cat>-- to create file and pull the data
+head-- to see  first 10 lines of the file
+tail-- to see last 10 lines of the file
+tac -- it can visible reverse order in files
+ 
+ls -l --it visibles files in long in detail
+
+ls -lt --- it visibles time vise in latest 
+ls -la --- it visibles hidden files also (hidden files starting from .symbol)
+ls -ltr --- list in long format, reverse sorted by modification time
+
+history --- commands history
+
+sudo wget link -- to download web files
+sudo tar -xvf file name  -- un tar
+sudo rm -rf file name --- to delete a file forcebilly
+
+df -h  to check system storage
+du -sh file name -- file size
+du -sh *  --- overall that file size
+
+
+
+adding users in linux
+**********************
+
+
+step-1:
+sudo adduser username
+password
+
+
+
+step-2:
+cd /etc/ssh/
+sudo vi sshd_config
+
+
+step-3:
+sudo service ssh restart
+
+
+step-4:
+
+sudo visudo
+username all(all,all)
+
+
+
+cat /etc/passwdd
+
+
+file 644
+directory 755
+dir full perm 777
+
+r read 4
+w write 2
+x execute 1
+
+
+sudo mv sam sim ---- for rename
+sudo cp -r oldpath newpath -- for copy a file
+sudo mv  oldpath newpath -- for move a file
+
+
